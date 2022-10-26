@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de pagina -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dasboard</title>
+    <!-- link de conexión con .css -->
     <link rel="stylesheet" href="dashboard.css">
 </head>
 
 <body>
+    <!-- El header contiene el menu de navegacion  y la image de encabezado -->
     <header class="header">
+        <!-- se le añade un link a la imagen de encabezado para volver a la pagina principal -->
         <div class="logo">
             <a href="index.html">
                 <img class="image-logo" src="logo.jpg" alt="logo">
             </a>
         </div>
+        <!-- nAV contiene los links de navegación  -->
         <nav id="nav">
             <a class="active" href="dashboard.html">Dashboard</a>
             <a href="rides.html">Rides</a>
@@ -23,9 +28,11 @@
         </nav>
     </header>
     <section>
-
+        <!-- class div-user se utliza para dar formato a la informacion de usuario, foto y titulo -->
         <div class="div-user">
+            <!-- titulo principal -->
             <h1 class="h1">Dashboard</h1>
+            <!-- se utiliza que contiene saludo, nombre usuario e imagen -->
             <span class="info-user">
                 <b> Welcome</b>
                 <span class="name-user">
@@ -34,15 +41,20 @@
                 <img class="img-user" src="user.jpg" alt="user">
             </span>
         </div>
+        <!-- este  calss div-rides contiene el tirulo y el contenido de una tabla -->
         <div class="div-rides">
             <nav class="nav-dashboard">
                 <a class="a-dashboard" href="#"><b> Dashboard</b></a>
             </nav>
+            <!-- tirulo de la tabla -->
             <h2 class="h2">My Rides</h2>
             <form class="form" action="form-encapsulation">
+                <!-- comentario de ptabla -->
                 <p><b> Your current list of Rides</b></p>
+                <!-- tabla con informacion de rides -->
                 <table class="default">
                     <tr>
+                        <!-- encabezado  -->
                         <th>Name </th>
                         <th>Start </th>
                         <th>End </th>
@@ -51,9 +63,11 @@
                     </tr>
 
                     <tr>
+                        <!-- datos de lines -->
                         <td>Brete</td>
                         <td>B. Los Angeles</td>
                         <td>Ciudad Quesada</td>
+                        <!-- link que direcciona a rides edit -->
                         <td><a href="rides-edit.html">Edit-Delete</a> </td>
 
                     </tr>

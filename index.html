@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de pagina -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicoRides</title>
+    <!-- enlace de conexión css -->
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <!-- Header abarca un link y una imagen de encabezado -->
     <header class="header">
         <nav class="nav">
             <a class="login" href="autentication.html">Login</a>
@@ -19,18 +22,22 @@
         </div>
     </header>
     <main class="main">
+        <!-- Esta section contiene a todo el cuerpo del html -->
         <section>
+            <!-- se encapsula un span en h1 para trabajar el texto por -->
             <h1 class="h1">
                 Welcome to TicoRides
                 <span class="span-h1">.com</span>
             </h1>
+            <!-- se utiliza esta class  secction1 para dar margen al html -->
             <div class="section1">
 
                 <p>
                     <b> Search for a ride</b>
                 </p>
-
+                <!-- se utiliza un div con class boc-ruta para dar formato al form de de entrada de texto -->
                 <div class="box-ruta">
+                    <!-- Form para ingreso de datos de salida y llegada de viaje -->
                     <form class="form" action="form-encapsulation">
                         <span>
                             <b>
@@ -53,10 +60,11 @@
                 <p>
                     <b> Results for that matches your criteria: </b>
                 </p>
+                <!-- class box-ruta2 se utliza para contner al la tabla de viajes y dar formato  -->
                 <div class="box-ruta2">
 
                     <table class="default">
-
+                        <!-- ecabezados de la tabla-->
                         <tr>
                             <th>User </th>
                             <th>Start </th>
@@ -66,9 +74,11 @@
                         </tr>
 
                         <tr>
+                            <!-- filas de tabla -->
                             <td>barroyo</td>
                             <td>B. Los Angeles</td>
                             <td>Ciudad Quesada</td>
+                            <!-- link de apertura de pagina rides y ver datos de viaje -->
                             <td><a href="rides-add.html">View</a></td>
 
                         </tr>

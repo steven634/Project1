@@ -140,21 +140,22 @@ body {
 
 .personalizado:hover {
     background: #0078AA;
-    
+
 }
-.personalizado{
+
+.personalizado {
     border-radius: 2%;
-    text-decoration:none;
-    font-weight:500;
-    font-size:16px;
-    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
     margin-top: 2%;
-    padding-top:5px;
-    padding-bottom:4px;
-    padding-left:40px;
-    padding-right:40px;
-    background-color:dimgray;
-    }
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: dimgray;
+}
 
 .nav2 {
     justify-content: center;

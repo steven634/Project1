@@ -7,12 +7,12 @@
 body {
     font-size: 100%;
 }
-.header
-{
+
+.header {
     margin-top: 5%;
 }
-.image-logo
-{
+
+.image-logo {
     width: 350px;
     height: 300px;
     max-width: 100%;
@@ -20,14 +20,14 @@ body {
     display: inline block;
     display: flex;
 }
-.logo
-{
+
+.logo {
     display: flex;
     justify-content: center;
 
 }
-.box-ruta 
-{
+
+.box-ruta {
     display: flex;
     justify-content: space-evenly;
     margin-top: 1%;
@@ -36,42 +36,42 @@ body {
     padding-bottom: 1%;
 }
 
-.form{
+.form {
     display: inline-block;
     justify-content: center;
     font-size: 20px;
 
 }
-.input{
+
+.input {
     margin-top: 5px;
     margin-bottom: 5px;
     padding-right: 28%;
 }
-.nav{
+
+.nav {
     display: inline-block;
     display: flex;
     font-size: 16px;
     margin-bottom: 7%;
-    
+
 }
 
 .personalizado:hover {
     background: #0078AA;
-    
+
 }
-.personalizado{
+
+.personalizado {
     border-radius: 2%;
-    text-decoration:none;
-    font-weight:500;
-    font-size:20px;
-    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
     margin-top: 2%;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:40px;
-    padding-right:40px;
-    background-color:dimgray;
-    }
-
-
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: dimgray;
+}

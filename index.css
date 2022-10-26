@@ -4,13 +4,11 @@
     font-family: Century Gothic;
 }
 
-body
-{
+body {
     font-size: 100%;
 }
 
-.image-logo
-{
+.image-logo {
     width: 350px;
     height: 300px;
     max-width: 100%;
@@ -18,15 +16,14 @@ body
     display: inline block;
     display: flex;
 }
-.logo
-{
+
+.logo {
     display: flex;
     justify-content: center;
 
 }
 
-.nav
-{
+.nav {
     text-align: end;
     margin-top: 2.8%;
     margin-right: 3%;
@@ -34,8 +31,7 @@ body
     height: auto;
 }
 
-.login
-{
+.login {
     max-zoom: 100%;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.884);
@@ -48,22 +44,20 @@ body
 
 }
 
-.login:hover
-{
+.login:hover {
     background: #277BC0;
 }
-.span-h1
-{
+
+.span-h1 {
     color: orangered;
 }
-.h1
-{
+
+.h1 {
     margin-left: 15%;
     font-size: 32px;
 }
 
-.box-ruta 
-{
+.box-ruta {
     display: flex;
     border: solid 1px grey;
     justify-content: space-evenly;
@@ -73,14 +67,12 @@ body
     padding-bottom: 1%;
 }
 
-.form 
-{
+.form {
     display: inline-block;
     display: flex;
 }
 
-.button2
-{
+.button2 {
     float: right;
     font-size: 12px;
     border-radius: 2px;
@@ -88,49 +80,43 @@ body
     background-color: #AEBDCA;
 }
 
-.button2:hover 
-{
+.button2:hover {
     background: orangered;
 }
 
 
-.box-ruta2
- {
+.box-ruta2 {
     display: flex;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.default tr>th,td 
-{
+.default tr>th,
+td {
     border: 1px solid grey;
     padding: 1%;
 
 }
 
 
-.default 
-{
+.default {
     border-collapse: collapse;
     text-align: left;
     width: 100%;
 }
 
-.default tr:nth-child(even) td 
-{
+.default tr:nth-child(even) td {
     background-color: #AEBDCA;
 }
 
-.default tr th 
-{
+.default tr th {
     background-color: #0078AA;
     color: aliceblue;
 }
 
 
 
-.section1
-{
+.section1 {
     margin-left: 15%;
     margin-right: 15%;
 }

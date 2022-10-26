@@ -9,8 +9,7 @@ body {
     margin-top: 2%;
 }
 
-.image-logo
-{
+.image-logo {
     width: 350px;
     height: 300px;
     max-width: 100%;
@@ -18,20 +17,21 @@ body {
     display: inline block;
     display: flex;
 }
-.logo
-{
+
+.logo {
     display: flex;
     justify-content: center;
 
 }
+
 #nav {
     overflow: hidden;
     background-color: #0078AA;
-    justify-content:space-around;
+    justify-content: space-around;
     display: flex;
-  }
-  
-  #nav a {
+}
+
+#nav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -40,88 +40,86 @@ body {
     text-decoration: none;
     font-size: 17px;
     display: flex;
-  }
-  
-  #nav a:hover {
+}
+
+#nav a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  #nav a.active {
+}
+
+#nav a.active {
     background-color: rgb(255, 60, 0);
     color: white;
-  }
+}
 
-.h1{
+.h1 {
     font-size: 30px;
     text-align: left;
     display: inline-block;
     display: flex;
 }
-.info-user
-{
+
+.info-user {
     display: inline-block;
     display: flex;
 }
-.name-user{
+
+.name-user {
     color: orangered;
     margin-left: 1%;
 }
-.img-user
-{
+
+.img-user {
     width: 80px;
     height: 50px;
     max-width: 100%;
     height: auto;
     display: inline block;
 }
-.div-user{
+
+.div-user {
     font-size: 20px;
     font-weight: 500;
     justify-content: space-around;
     display: flex;
     margin-top: 1%;
 }
-.icon
-{
+
+.icon {
     font-size: 30px;
     color: #0078AA;
     display: inline-block;
     display: flex;
 }
 
-.h2
-{
+.h2 {
     margin: 1%;
 }
 
-.default tr>th,td 
-{
+.default tr>th,
+td {
     border: 1px solid grey;
     padding: 1%;
 
 }
 
 
-.default 
-{
+.default {
     border-collapse: collapse;
     text-align: left;
     width: 100%;
 }
 
-.default tr:nth-child(even) td 
-{
+.default tr:nth-child(even) td {
     background-color: #AEBDCA;
 }
 
-.default tr th 
-{
+.default tr th {
     background-color: #0078AA;
     color: aliceblue;
 }
-.div-redes
-{
+
+.div-redes {
     display: inline-block;
     justify-content: center;
 }

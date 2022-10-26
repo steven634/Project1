@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de pagina -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <!-- enlace de conexión css -->
     <link rel="stylesheet" href="autentication.css">
 </head>
 
 <body>
+    <!-- Header abarca un link y una imagen de encabezado -->
     <header class="header">
         <div class="logo">
+            <!-- se le da caracteristicas de link a la imagen de encabezado para ir a la pagiina principal -->
             <a href="index.html">
                 <img class="image-logo" src="logo.jpg" alt="logo">
             </a>
         </div>
     </header>
     <main>
-
+        <!-- div que contie las etiquetas y cajas de texto para dar formato  -->
         <div class="section1">
             <div class="login">
+                <!-- Form para entrada de texto -->
                 <form class="form" action="form-container">
                     <p>
                         <b>
                             Username
                         </b>
                     </p>
-
+                    <!-- entrada de texto -->
                     <input class="input" type="text" id="from1" name="from" placeholder="Input text">
 
                     <p>
@@ -37,13 +42,14 @@
                     </p>
 
                     <input class="input" type="text" id="from2" name="from" placeholder="Input text">
+                    <!-- class nv para contener link y dar formato de margen -->
                     <nav class="nav">
                         <p> Not an User?</p>
 
                         <a class="registro" href="register.html">Register Here</a>
                     </nav>
-
-                    <a  class="personalizado" href="index.html">Find my Ride!</a>
+                    <!-- link que direcciona a la pagina principal -->
+                    <a class="personalizado" href="index.html">Find my Ride!</a>
 
                 </form>
             </div>

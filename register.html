@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de pagina -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +11,8 @@
 </head>
 
 <body>
+    <!-- Header contiene div que encierra logo de pagina y el
+         logo tiene un link para volver a la pagina principal -->
     <header class="header">
         <div class="logo">
             <a href="index.html">
@@ -17,12 +20,15 @@
             </a>
         </div>
     </header>
+    <!-- Este div con clase box-ruta contiene todos los parrafos y cajas de texto -->
     <div class="box-ruta">
+        <!-- Form de entradas de texto -->
         <form class="form" action="form-encapsulation">
+            <!-- texto -->
             <p>
                 <b>First Name</b>
             </p>
-
+            <!-- entrada de texto -->
             <input class="input" type="text" id="from1" name="from" placeholder="Input text">
 
             <p>
@@ -62,15 +68,15 @@
             </p>
 
             <input class="input" type="text" id="from6" name="from" placeholder="Input text">
-
+            <!-- nav que contiene  link a la pagina de inicio de sesion -->
             <nav class="nav">
                 <p> Already an user?</p>
 
                 <a class="login" href="autentication.html"> Login Here</a>
             </nav>
-            
-            
-            <a  class="personalizado" href="index.html">Find my Ride!</a>
+
+            <!-- link  que direcciona a pagina principal -->
+            <a class="personalizado" href="index.html">Find my Ride!</a>
 
 
         </form>
