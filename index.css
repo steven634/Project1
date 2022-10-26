@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+body
+{
+    font-size: 100%;
+}
+
+.image-logo
+{
+    width: 350px;
+    height: 300px;
+    max-width: 100%;
+    height: auto;
+    display: inline block;
+    display: flex;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav
+{
+    text-align: end;
+    margin-top: 2.8%;
+    margin-right: 3%;
+    max-width: 100%;
+    height: auto;
+}
+
+.login
+{
+    max-zoom: 100%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.884);
+    border-radius: 3px;
+    padding: 5px 5px;
+    border-style: groove;
+    border-color: #277BC0;
+
+    display: inline-block;
+
+}
+
+.login:hover
+{
+    background: #277BC0;
+}
+.span-h1
+{
+    color: orangered;
+}
+.h1
+{
+    margin-left: 15%;
+}
+
+.box-ruta 
+{
+    display: flex;
+    border: solid 1px grey;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.form 
+{
+    display: inline-block;
+    display: flex;
+}
+
+.button2
+{
+    float: right;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 3px;
+    background-color: #AEBDCA;
+}
+
+.button2:hover 
+{
+    background: orangered;
+}
+
+
+.box-ruta2
+ {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.default tr>th,td 
+{
+    border: 1px solid grey;
+    padding: 1%;
+
+}
+
+
+.default 
+{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.default tr:nth-child(even) td 
+{
+    background-color: #AEBDCA;
+}
+
+.default tr th 
+{
+    background-color: #0078AA;
+    color: aliceblue;
+}
+
+
+
+.section1
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+body {
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+.image-logo {
+    width: 350px;
+    height: 300px;
+    max-width: 100%;
+    height: auto;
+    display: inline block;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+#nav {
+    overflow: hidden;
+    background-color: #0078AA;
+    justify-content: space-around;
+    display: flex;
+}
+
+#nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 15.3%;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+}
+
+#nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#nav a.active {
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    display: flex;
+}
+
+.info-user {
+    display: inline-block;
+    display: flex;
+}
+
+.name-user {
+    color: orangered;
+    margin-left: 1%;
+}
+
+.img-user {
+    width: 80px;
+    height: 50px;
+    max-width: 100%;
+    height: auto;
+    display: inline block;
+}
+
+.div-user {
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 1%;
+}
+
+.nav-dashboard {
+    display: flex;
+}
+
+.div-data {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+}
+.form{
+    width: 100%;
+}
+.p{
+    font-size: 20px;
+}
+.input{
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.input-info{
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.nav{
+    font-size: ;
+}
