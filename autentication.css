@@ -45,6 +45,7 @@ body {
     display: inline-block;
     display: flex;
     font-size: 16px;
+    margin-bottom: 10%;
     
 }
 .form{
@@ -65,4 +66,21 @@ body {
     justify-content: center;
     display: flex;
 }
+.personalizado:hover {
+    background: #0078AA;
+    
+}
+.personalizado{
+    border-radius: 2%;
+    text-decoration:none;
+    font-weight:500;
+    font-size:20px;
+    color:white;
+    margin-top: 2%;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:dimgray;
+    }
 
