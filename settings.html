@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de la pagina -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,14 @@
 </head>
 
 <body>
+    <!-- link de conección con .css -->
     <header class="header">
         <div class="logo">
             <a href="index.html">
                 <img class="image-logo" src="logo.jpg" alt="logo">
             </a>
         </div>
+        <!-- se agregrea al header el logo y con un link anidado y se agrega una barra de nevegacion -->
         <nav id="nav">
             <a href="dashboard.html">Dashboard</a>
             <a href="rides.html">Rides</a>
@@ -23,6 +26,7 @@
         </nav>
     </header>
     <section>
+        <!-- logo con link -->
         <div class="div-user">
             <h1 class="h1">Settings</h1>
             <span class="info-user">
@@ -33,19 +37,21 @@
                 <img class="img-user" src="user.jpg" alt="user">
             </span>
         </div>
+        <!-- barra de navegación -->
         <nav class="nav-dashboard">
             <a class="a-dashboard" href="dashboard.html"><b> Dashboard</b></a>
             <h2 class="h2">Settings</h2>
         </nav>
+        <!-- div-data se utliza para agrupar genenar un flex general -->
         <div class="div-data">
-
+            <!-- form que contiene a los inputs y nav de la parte secundaria de la pagina -->
             <form class="form" action="form-container">
                 <p class="p">
                     <b>
                         Full Name
                     </b>
                 </p>
-
+                 <!-- input con datos quemados y activada la modificación del contenido -->
                 <input class="input" type="text" id="from1" name="from" placeholder="Bladimir Arroyo">
 
                 <p class="p">
@@ -53,19 +59,19 @@
                         Speed Avarage
                     </b>
                 </p>
-
+                <!-- input con datos quemados y activada la modificación del contenido -->
                 <input class="input" type="text" id="from2" name="from" placeholder="60 km/h">
                 <p class="p">
                     <b>
                         About Me
                     </b>
                 </p>
-
+                <!-- input con datos quemados y activada la modificación del contenido -->
                 <input class="input-info" type="text" id="from3" name="from" placeholder="Something about me goes here">
-
+                 <!-- se crean links de pie de pagina -->
                 <nav class="nav2">
                     <a class="registro" href="register.html">Register Here</a>
-                    <button class="button , registro"><b> Find my Ride! </b></button>
+                    <a class="personalizado" href="index.html">Save</a>
                 </nav>
 
             </form>

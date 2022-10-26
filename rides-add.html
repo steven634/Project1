@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- encabezado de html -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,15 @@
 </head>
 
 <body>
+    <!-- se agregrea al header el logo y con un link anidado y se agrega una barra de nevegacion -->
     <header class="header">
+        <!-- logo con link -->
         <div class="logo">
             <a href="index.html">
                 <img class="image-logo" src="logo.jpg" alt="logo">
             </a>
         </div>
+        <!-- barra de navegación -->
         <nav id="nav">
             <a href="dashboard.html">Dashboard</a>
             <a class="active" href="rides.html">Rides</a>
@@ -23,6 +27,8 @@
         </nav>
     </header>
     <section>
+        <!-- se crea div-user para modear el titulo
+             principa nombre de usuario e imagen de perfil -->
         <div class="div-user">
             <h1 class="h1">Settings</h1>
             <span class="info-user">
@@ -30,9 +36,11 @@
                 <span class="name-user">
                     <b> barroyo</b>
                 </span>
+                <!-- imagen de perfil -->
                 <img class="img-user" src="user.jpg" alt="user">
             </span>
         </div>
+        <!-- menú de navegacion dashboard -->
         <nav class="nav-dashboard">
             <a class="a-dashboard" href="dashboard.html"><b> Dashboard</b></a>
             <h2 class="h2">Rides</h2>
@@ -43,15 +51,16 @@
 
             </b>
         </p>
+        <!-- div-data se utliza para agrupar genenar un flex general -->
         <div class="div-data">
-
+            <!-- form que contiene a los inputs y nav de la parte secundaria de la pagina -->
             <form class="form" action="form-container">
                 <span class="p">
                     <b>
                         Ride Name
                     </b>
                 </span>
-
+                <!-- input con datos quemados y desactivada la modificación del contenido -->
                 <input class="input" type="text" id="from1" name="from" placeholder="Brete" disabled>
                 <div class="ruta-form">
                     <p class="p , p2">
@@ -59,6 +68,7 @@
                             Start From
                         </b>
                     </p>
+                    <!-- input con datos quemados y desactivada la modificación del contenido -->
                     <input class="input" type="text" id="from2" name="from" placeholder="B.Los Angeles, Ciudad Quesada"
                         disabled>
                     <p class="p">
@@ -66,7 +76,7 @@
                             End
                         </b>
                     </p>
-
+                    <!-- input con datos quemados y desactivada la modificación del contenido -->
                     <input class="input" type="text" id="from3" name="from"
                         placeholder="Mercado Municipal, Ciudad Quesada" disabled>
 
@@ -79,7 +89,7 @@
 
                 <input class="input-info" type="text" id="from4" name="from"
                     placeholder="This is my every day ride, from Los Angeles to my job " disabled>
-
+                <!-- Link de pie de pagina para registrar además de link para buscar ride -->
                 <nav class="nav2">
                     <a class="registro" href="register.html">Register Here</a>
                     <a class="personalizado" href="index.html">Find my Ride!</a>
@@ -89,11 +99,12 @@
         </div>
     </section>
     <section>
-
+        <!-- se utiliza un parrafo para simular una linea horizontal  -->
         <p class="linea">.</p>
         <h3 class="h3">
             When
         </h3>
+
         <form class="form2" action="form-container">
 
 
@@ -103,23 +114,26 @@
                         Depature
                     </b>
                 </p>
+                <!-- input con datos quemados y desactivada la modificación del contenido -->
                 <input class="input3" type="text" id="from5" name="from" placeholder="6:45AM" disabled>
                 <p class="p">
                     <b>
                         Estimated Arrival
                     </b>
                 </p>
-
+                <!-- input con datos quemados y desactivada la modificación del contenido -->
                 <input class="input3" type="text" id="from6" name="from" placeholder="7:05AM" disabled>
 
             </div>
+            <!-- div-selection  se utiliza para administrar una columna de checkbox y una de texto -->
             <div class="day-selection">
                 <p class="p">
                     <b>
                         Select Days
                     </b>
                 </p>
-
+                <!-- se crea los checkbox con su respectivo nombre y 
+                    se asigna un check  y se desabilita la modificación -->
                 <input type="checkbox" id="day1" name="day1" checked disabled>
                 <label>Monday</label><br>
                 <input type="checkbox" id="day2" name="day2" checked disabled>
@@ -130,12 +144,13 @@
                 <label> Thursday</label><br>
                 <input type="checkbox" id="day5" name="day5" checked disabled>
                 <label> Friday</label><br>
-                <input type="checkbox" id="day6" name="day6" value="Boat">
+                <input type="checkbox" id="day6" name="day6" value="Boat" disabled>
                 <label> Saturday</label><br>
-                <input type="checkbox" id="day7" name="day7" value="Boat">
+                <input type="checkbox" id="day7" name="day7" value="Boat" disabled>
                 <label> Sunday</label><br>
             </div>
         </form>
+        <!-- se crean links de pie de pagina -->
         <nav class="nav3">
             <a class="registro" href="register.html">Cancel</a>
             <a class="personalizado" href="index.html">Save</a>
